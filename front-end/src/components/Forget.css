@@ -1,0 +1,110 @@
+ .forget-main {
+     background-image: url(../assets/background.jpeg);
+     background-size: 100%;
+     background-repeat: no-repeat;
+     padding-bottom: 10px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+ }
+ 
+ .forget-div1 {
+     height: 800px;
+     width: 1210px;
+     padding: 20px 20px 20px 20px;
+     align-items: center;
+ }
+ 
+ .forget-h1 {
+    margin-top: 15.5%;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+    margin-left: 18%;
+    color: #3D3D3D;
+    width: 800px;
+    text-align: center;
+ }
+ 
+ .forget-div2 {
+    width: 42%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    background-color: #fff;
+    animation-name: slideIn;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 20px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+ }
+
+ .forget-div2 input
+ {
+   width:80%;
+   margin-left: 0px;
+   margin-bottom: -16px;
+ }
+ .forget-p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #575a73;
+    padding: 0 21px;
+    margin: 0;
+ }
+ 
+ .forget-div2 .forget-email-type {
+    width: 73%;
+    height: 30px;
+    padding: 13px 32px;
+    background-color: #F6F6F6;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    border-radius: 5px;
+    font-size: 16px;
+    border: 2px solid #f6f6f6;
+    margin: 0;
+    outline: none;
+ }
+ 
+ .forget-button {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+    height: 47px;
+    position: relative;
+    display: block;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 25px;
+    text-decoration: none;
+    background-color: #1c545f;
+    width: 213px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+ .success-message
+ { width: 94%;
+   padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+ }
+ .not-found-user
+ {
+   color: red;
+    font-size: 15px;
+    font-weight: bold;
+ }

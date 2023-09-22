@@ -1,0 +1,249 @@
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+.navbar {
+    padding: 35px 0px;
+    z-index: 1030;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    height: 100px;
+    min-height: 35px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 0.3s ease;
+    background: transparent;
+}
+.navbar.scrolled {
+    background-color: #fff;
+    height: 70px;
+    padding: 0;
+}
+.navbar.scrolled .navbar-logo .logo{
+    margin-top: 15px;
+}
+.scrolled .navbar-content .unsubscribe-button{
+    border: 1px solid #3A3161;
+}
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+}
+
+.navbar-logo{
+    flex-basis: 20%;
+    justify-content: right;
+    display: flex;
+}
+.navbar-content{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-basis: 60%;
+}
+.navbar-buttons{
+    flex-basis: 18%;
+    justify-content: left;
+    display: flex;
+    margin-left: 2rem;
+}
+
+.navbar-content {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: block;
+    width: 183.359px;
+    height: 51px;
+    word-spacing: 0px;
+    overflow: clip;
+    cursor: pointer;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 3px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #000000;
+    transform: none;
+    transition: all 0.4s ease 0s;
+    outline: rgb(61, 61, 61) dashed 0px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    height: 50px;
+    width: 77.3125px;
+    padding: 15px;
+    color: #3d3d3d;
+    background-position: 0% 0%;
+    text-align: center;
+    word-spacing: 0px;
+    line-height: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 1%;
+}
+
+.nav-item a:hover::after {
+    content: "";
+    position: absolute;
+    bottom: 1px;
+    left: 0%;
+    width: 100%;
+    height: 2px;
+    background-color: #000000;
+}
+
+.navbar-buttons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.unsubscribe-button {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none solid rgb(0, 0, 0);
+    background-position: 0% 0%;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 15px 25px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 25px;
+}
+
+.unsubscribe-button:hover {
+    color: #ffffff;
+    background-color: #b22222;
+}
+
+.login-button {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    background-position: 0% 0%;
+    color: #ffffff;
+    background-color: #b22222;
+    height: 50px;
+    width: 152px;
+    border: 5px solid #b22222;
+    position: relative;
+    cursor: pointer;
+    transform: none;
+    box-sizing: border-box;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-button:hover
+{
+    color: #000000;
+    background-color: #ffffff;
+    border: none;
+}
+
+.mobile-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    padding: 10px;
+    overflow-y: auto;
+    z-index: 1031;
+    color: #000000;
+}
+
+.mobile-menu.open {
+    display: block;
+}
+
+.mobile-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mobile-menu li {
+    margin-bottom: 10px;
+}
+
+.mobile-menu a {
+    text-decoration: none;
+    color: #000000;
+    transition: background-color 0.3s ease;
+}
+
+.mobile-menu a:hover {
+    text-decoration: underline;
+}
+
+.mobile-menu-button {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.mobile-menu-button img {
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width: 768px) {
+    .navbar-content {
+        display: none;
+    }
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .nav-item {
+        margin: 10px 0;
+    }
+    .navbar-buttons {
+        margin-right: 20px;
+    }
+    .navbar-buttons .login-button {
+        display: none;
+    }
+    .navbar-buttons .mobile-menu-button {
+        display: block;
+    }
+    .navbar-buttons .mobile-menu-button.open {
+        background-color: #f5f5f5;
+        color: #000000;
+        border-radius: 50%;
+    }
+    .navbar-buttons .mobile-menu-button.open img {
+        transform: rotate(90deg);
+    }
+}

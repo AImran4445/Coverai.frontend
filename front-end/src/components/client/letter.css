@@ -1,0 +1,217 @@
+*
+{
+    font-family: "Open Sans", sans-serif;
+}
+.dashboard-logo
+{
+    max-width: 211px;
+}
+.left-dashboard-logo
+{
+    margin-bottom: 40px;
+    padding: 25px 25px;
+    background: #E9E9E9;
+}
+.left-dashboard-container
+{
+    width: 261px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    height: 100%;
+    box-shadow: 0 0 10px 7px rgba(0,0,0, 0.05);
+}
+.dashboard-email
+{
+    opacity: 0.4;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: inherit;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 16px;
+}
+.left-dashboard-second-container-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 9px #0000002b!important;
+    border-radius: 100px;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #EB4553;
+    font-family: 'Open Sans', sans-serif;
+    width: fit-content; /* Adjust width based on content */
+    padding: 6px 10px; /* Adjust padding for better spacing */
+    white-space: nowrap;
+    text-decoration: none; /* Remove default link styling */
+   
+}
+.left-dashboard-second-container
+{ 
+    padding: 30px 30px;
+    border-bottom: 1.3px solid #E8E8ED;
+}
+
+.left-dashboard-second-container-button .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px; 
+    height: 42px; 
+    background-color: #EB4553;
+    border-radius: 50%;
+    margin-right: 10px;
+    
+}
+
+.left-dashboard-second-container-button .fa.fa-plus {
+    font-size: 14px; /* Adjust icon size */
+    color: white;
+}
+
+.left-dashboard-second-container-button span {
+    display: inline-block;
+    width: 20px; /* Adjust circle size for span */
+    height: 20px; /* Adjust circle size for span */
+    border-radius: 50%;
+    background: #EB4553;
+    box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.17);
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 1; /* Center the "+" icon vertically */
+    margin-right: 10px; /* Add some spacing between circle and text */
+}
+
+.left-dashboard-second-container-button span i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.left-dashboard-second-container-button span i:before {
+    content: "\f067";
+}
+.left-dashboard-3-container
+{
+    border-bottom: 1.3px solid #E8E8ED;
+}
+.left-dashboard-3-container a
+{
+    display: flex;
+    margin: 15px;
+    
+   
+     
+}
+.left-dashboard-3-container-button
+{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #EB4553;
+    font-family: 'Open Sans', sans-serif;
+    width: fit-content;
+    text-decoration: none;
+}
+.second-img
+{
+    margin: 0px;
+    width: 48px;
+    height: 46px;
+    display: flex;
+}
+.second-span i
+{
+    margin: 0px ;
+}
+
+.left-dashboard-4-container .left-dashboard-4-container-button{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    align-items: center;
+    padding: 25px 15px;
+    gap: 14px;
+    cursor: pointer;
+}
+.left-dashboard-4-container .left-dashboard-4-container-button:hover .logout-img{
+    background-position-x: 0px;  
+}
+
+.left-dashboard-4-container .left-dashboard-4-container-button:hover .label-class{
+    color: #EB4553;
+}
+
+
+.left-dashboard-4-container-button {
+    color: #5B5B62;
+  
+}
+
+.left-dashboard-4-container-button .logout-img{
+    background-image: url(../../assets/logout.png);
+    margin: 0px;
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #5B5B62;
+    width: 30px;
+    height: 30px;
+    transition: 0.1s;
+    background-position-y: 30px;
+    background-position-x: 30px;    
+}
+.right-dashboard-container {
+    background-image: url('../../assets/background.jpeg');
+    background-size: cover;
+    width: calc(100% - 261px); 
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+    overflow: auto;
+   
+}
+
+.index
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* cover letter type-writer effect */
+.type-letter-cover
+{
+    white-space: pre-line;
+    color: #3d3d3d;
+    line-height: 24px;
+    letter-spacing: 0.7px;
+    font-size: 16px;
+}
+.type-writer-background
+{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    background-color: #fff; 
+    position: relative;
+    padding: 25px;
+    border-radius: 10px;
+    margin-left: 130px;
+  
+}

@@ -1,0 +1,179 @@
+.regsiter-section1 {
+    background-image: url(../assets/background.jpeg);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.newaccount-h1 {
+    margin-top: 20%;
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 4rem;
+}
+
+.container-register-wrapper h1 {
+    color: #333333
+}
+
+.register-section2 {
+    align-items: center;
+    background-image: none;
+    background-color: #555555;
+    border-top: 1px solid #dce8f1;
+    padding: 25px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.container-2-Register {
+    margin-top: 5rem;
+    width: 600px;
+    min-height: 432px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    color: #555555;
+    background-color: #fff;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+}
+#container-2-Register .form-main .form input {
+    background-color: #f6f6f6;
+    border: none;
+    width: 74.8%;
+    border-radius: 5px;
+    padding: 18.5px 32px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    font-size: 16px;
+    outline: none;
+    border: 2px solid #f6f6f6;
+}
+#container-2-Register .form-main .form input:placeholder{
+    color: #0d0d0d;
+}
+
+
+.text {
+    margin-top: 5%;
+}
+.text .newaccount-already{
+    padding-left: 2rem;
+    color: #807f7d
+}
+.text .newaccount-already a{
+    color: #807f7d
+}
+
+h1 {
+    text-align: center;
+    color: #555555;
+}
+
+
+.home4-button {
+    margin-top: 5%;
+}
+
+.form-main {
+    margin-top: -20%;
+}
+
+#container-2-Register .form-main .form {
+    margin-top: 30%;
+    padding: 3em;
+}
+.account-1 {
+    text-align: center;
+    color: white;
+}
+
+.button-register {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: auto;
+    position: relative;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.42857143;
+    padding: 10px 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    background-color: #B22222;
+}
+
+.disabled-button {
+    background-color: #b2222294 ;
+    color: white;
+    cursor: not-allowed;
+  }
+  .error{
+    color: red;
+    font-size: 15px;
+    margin: 4px;
+    text-align: center;
+    margin-top: -15px;
+    margin-bottom: 15px;
+  }
+  
+
+@media (max-width:767px) {
+    .regsiter-section1 {
+        background-image: url(../assets/background.jpeg);
+        background-size: 100%;
+        background-position: right;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .newaccount-h1 {
+        margin: -4% 0;
+        width: 100%;
+        margin-top: 30%;
+        font-size: 30px;
+        text-align: center;
+    }
+    .text {
+        margin-left: -25%;
+    }
+    .button-register {
+        margin-left: 10px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 38px;
+        text-align: center;
+        white-space: 1px;
+        background-position: 0% 0%;
+        color: #FFFFFF;
+        height: 50px;
+        width: 152px;
+        position: relative;
+        display: block;
+        cursor: pointer;
+        transform: none;
+        box-sizing: border-box;
+        border-radius: 25px;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        text-decoration: none;
+        margin-top: 6%;
+        margin-left: 32%;
+        color: white;
+        background-color: #B22222;
+    }
+}
